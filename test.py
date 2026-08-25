@@ -14,12 +14,12 @@ def add_two_numbers():
 
 def main():
 	print("Simple Python demo")
-	print("1) Greet")
-	print("2) Add two numbers")
+	print("1) Add two numbers")
+	print("2) Greet")
 	choice = input("Choose an option (1/2): ")
-	if choice == "1":
+	if choice == "2":
 		greet()
-	elif choice == "2":
+	elif choice == "1":
 		add_two_numbers()
 	else:
 		print("Goodbye")
